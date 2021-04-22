@@ -1,0 +1,377 @@
+210422-20:38:25 [AppMain.ATM_SS_Starter] -- ======================
+210422-20:38:25 [AppMain.ATM_SS_Starter] -- Start the Application
+210422-20:38:25 [AppMain.ATM_SS_Starter] -- ======================
+210422-20:38:25 [AppStarter.common.AppStarter] -- add thread: Timer
+210422-20:38:25 [AppStarter.common.AppStarter] -- add thread: ATM_SS
+210422-20:38:25 [AppStarter.common.AppStarter] -- add thread: Card_reader
+210422-20:38:25 [AppStarter.common.AppStarter] -- add thread: Keypad
+210422-20:38:25 [AppStarter.common.AppStarter] -- add thread: TouchScreen
+210422-20:38:25 [AppStarter.common.AppStarter] -- add thread: BAMS
+210422-20:38:25 [AppStarter.common.AppStarter] -- add thread: advicePrinter
+210422-20:38:25 [AppStarter.common.AppStarter] -- add thread: alarm
+210422-20:38:25 [AppStarter.common.AppStarter] -- add thread: cashDispenser
+210422-20:38:25 [AppStarter.common.AppStarter] -- add thread: CashDepositCollector
+210422-20:38:26 [AppStarter.common.Timer] -- Timer Starting
+210422-20:38:26 [AppStarter.Hardware.HardwareHandler] -- Keypad Starting thread! 
+210422-20:38:26 [AppStarter.Hardware.HardwareHandler] -- Card_reader Starting thread! 
+210422-20:38:26 [AppStarter.Hardware.HardwareHandler] -- cashDispenser Starting thread! 
+210422-20:38:26 [AppStarter.Hardware.HardwareHandler] -- alarm Starting thread! 
+210422-20:38:26 [AppStarter.Hardware.HardwareHandler] -- BAMS Starting thread! 
+210422-20:38:26 [AppStarter.Hardware.HardwareHandler] -- TouchScreen Starting thread! 
+210422-20:38:26 [AppStarter.common.Timer$Ticker] -- Ticker starting
+210422-20:38:26 [AppStarter.Hardware.HardwareHandler] -- CashDepositCollector Starting thread! 
+210422-20:38:26 [AppStarter.Hardware.HardwareHandler] -- advicePrinter Starting thread! 
+210422-20:38:26 [AppStarter.common.Timer] -- set up message: [748855] [ATM_SS] :1619095116964
+210422-20:38:36 [AppStarter.common.Timer] -- set up message: [932523] [ATM_SS] :1619095126967
+210422-20:38:36 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [BAMS]
+210422-20:38:36 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [Keypad]
+210422-20:38:36 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [alarm]
+210422-20:38:36 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [advicePrinter]
+210422-20:38:36 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [TouchScreen]
+210422-20:38:36 [AppMain.ATM_SS] -- Receive poll ack from BAMS
+210422-20:38:36 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [cashDispenser]
+210422-20:38:36 [AppMain.ATM_SS] -- Receive poll ack from Keypad
+210422-20:38:36 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [CashDepositCollector]
+210422-20:38:36 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [Card_reader]
+210422-20:38:36 [AppMain.ATM_SS] -- Receive poll ack from alarm
+210422-20:38:36 [AppMain.ATM_SS] -- Receive poll ack from advicePrinter
+210422-20:38:36 [AppMain.ATM_SS] -- Receive poll ack from TouchScreen
+210422-20:38:36 [AppMain.ATM_SS] -- Receive poll ack from cashDispenser
+210422-20:38:36 [AppMain.ATM_SS] -- Receive poll ack from CashDepositCollector
+210422-20:38:36 [AppMain.ATM_SS] -- Receive poll ack from Card_reader
+210422-20:38:41 [AppStarter.Hardware.CardReader.CardController] -- card insert button pressed
+210422-20:38:41 [AppMain.ATM_SS] -- Receive check card message from Card_reader card Number: [201773804]
+210422-20:38:41 [AppStarter.BAMS.BAMS] -- Receive cardMessage: [201773804]
+210422-20:38:41 [AppStarter.Hardware.TouchScreenDisplay.TouchScreenDisplay_Emulator] -- change scene into: EnterPassword.fxml
+210422-20:38:42 [AppStarter.Hardware.KeyPad.KeypadController] -- Button pressed: 2
+210422-20:38:42 [AppStarter.Hardware.KeyPad.Keypad] -- send keyPressed to ATM-SS
+210422-20:38:42 [AppMain.ATM_SS] -- Receive key Pressed: 2
+210422-20:38:42 [AppStarter.Hardware.KeyPad.KeypadController] -- Button pressed: 5
+210422-20:38:42 [AppStarter.Hardware.KeyPad.Keypad] -- send keyPressed to ATM-SS
+210422-20:38:42 [AppMain.ATM_SS] -- Receive key Pressed: 5
+210422-20:38:43 [AppStarter.Hardware.KeyPad.KeypadController] -- Button pressed: 1
+210422-20:38:43 [AppStarter.Hardware.KeyPad.Keypad] -- send keyPressed to ATM-SS
+210422-20:38:43 [AppMain.ATM_SS] -- Receive key Pressed: 1
+210422-20:38:43 [AppStarter.Hardware.KeyPad.KeypadController] -- Button pressed: 2
+210422-20:38:43 [AppStarter.Hardware.KeyPad.Keypad] -- send keyPressed to ATM-SS
+210422-20:38:43 [AppMain.ATM_SS] -- Receive key Pressed: 2
+210422-20:38:43 [AppStarter.Hardware.KeyPad.KeypadController] -- Button pressed: 0
+210422-20:38:43 [AppStarter.Hardware.KeyPad.Keypad] -- send keyPressed to ATM-SS
+210422-20:38:43 [AppMain.ATM_SS] -- Receive key Pressed: 0
+210422-20:38:43 [AppStarter.Hardware.KeyPad.KeypadController] -- Button pressed: 0
+210422-20:38:43 [AppStarter.Hardware.KeyPad.Keypad] -- send keyPressed to ATM-SS
+210422-20:38:43 [AppMain.ATM_SS] -- Receive key Pressed: 0
+210422-20:38:44 [AppStarter.Hardware.KeyPad.KeypadController] -- Button pressed: 0
+210422-20:38:44 [AppStarter.Hardware.KeyPad.Keypad] -- send keyPressed to ATM-SS
+210422-20:38:44 [AppMain.ATM_SS] -- Receive key Pressed: 0
+210422-20:38:44 [AppStarter.Hardware.KeyPad.KeypadController] -- Button pressed: 0
+210422-20:38:44 [AppStarter.Hardware.KeyPad.Keypad] -- send keyPressed to ATM-SS
+210422-20:38:44 [AppMain.ATM_SS] -- Receive key Pressed: 0
+210422-20:38:44 [AppStarter.Hardware.KeyPad.KeypadController] -- Button pressed: Enter
+210422-20:38:44 [AppMain.ATM_SS] -- 25120000
+210422-20:38:44 [AppStarter.BAMS.BAMS] -- Receive pin: [ 25120000]
+210422-20:38:45 [AppMain.ATM_SS] -- Receive Login success
+210422-20:38:45 [AppStarter.Hardware.TouchScreenDisplay.TouchScreenDisplay_Emulator] -- change scene into: TouchScreenDisplayMainPage.fxml
+210422-20:38:46 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [TouchScreen]
+210422-20:38:46 [AppStarter.common.Timer] -- set up message: [375328] [ATM_SS] :1619095136968
+210422-20:38:46 [AppMain.ATM_SS] -- Receive poll ack from TouchScreen
+210422-20:38:46 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [Keypad]
+210422-20:38:46 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [BAMS]
+210422-20:38:46 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [Card_reader]
+210422-20:38:46 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [cashDispenser]
+210422-20:38:46 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [CashDepositCollector]
+210422-20:38:46 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [advicePrinter]
+210422-20:38:46 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [alarm]
+210422-20:38:46 [AppMain.ATM_SS] -- Receive poll ack from Keypad
+210422-20:38:46 [AppMain.ATM_SS] -- Receive poll ack from BAMS
+210422-20:38:46 [AppMain.ATM_SS] -- Receive poll ack from Card_reader
+210422-20:38:46 [AppMain.ATM_SS] -- Receive poll ack from cashDispenser
+210422-20:38:46 [AppMain.ATM_SS] -- Receive poll ack from CashDepositCollector
+210422-20:38:46 [AppMain.ATM_SS] -- Receive poll ack from advicePrinter
+210422-20:38:46 [AppMain.ATM_SS] -- Receive poll ack from alarm
+210422-20:38:49 [AppMain.ATM_SS] -- Get Account message received
+210422-20:38:49 [AppStarter.Hardware.TouchScreenDisplay.TouchScreenDisplay_Emulator] -- change scene into: GetAccount.fxml
+210422-20:38:50 [AppStarter.Hardware.TouchScreenDisplay.TouchScreenDisplay_Emulator] -- change scene into: waitForDeposit.fxml
+210422-20:38:50 [AppStarter.common.Timer] -- set up message: [824262] [CashDepositCollector] :1619095130820
+210422-20:38:50 [AppStarter.common.Timer] -- set up message: [932292] [CashDepositCollector] :1619095131821
+210422-20:38:51 [AppStarter.common.Timer] -- set up message: [703866] [CashDepositCollector] :1619095132823
+210422-20:38:52 [AppStarter.common.Timer] -- set up message: [939777] [CashDepositCollector] :1619095133825
+210422-20:38:53 [AppStarter.common.Timer] -- set up message: [243549] [CashDepositCollector] :1619095134828
+210422-20:38:54 [AppStarter.common.Timer] -- set up message: [966773] [CashDepositCollector] :1619095135829
+210422-20:38:55 [AppStarter.common.Timer] -- set up message: [675364] [CashDepositCollector] :1619095136830
+210422-20:38:56 [AppStarter.common.Timer] -- set up message: [861479] [CashDepositCollector] :1619095137831
+210422-20:38:56 [AppStarter.common.Timer] -- set up message: [831332] [ATM_SS] :1619095146969
+210422-20:38:56 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [Card_reader]
+210422-20:38:56 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [CashDepositCollector]
+210422-20:38:56 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [Keypad]
+210422-20:38:56 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [cashDispenser]
+210422-20:38:56 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [advicePrinter]
+210422-20:38:56 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [BAMS]
+210422-20:38:56 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [TouchScreen]
+210422-20:38:56 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [alarm]
+210422-20:38:56 [AppMain.ATM_SS] -- Receive poll ack from Card_reader
+210422-20:38:56 [AppMain.ATM_SS] -- Receive poll ack from CashDepositCollector
+210422-20:38:56 [AppMain.ATM_SS] -- Receive poll ack from Keypad
+210422-20:38:56 [AppMain.ATM_SS] -- Receive poll ack from cashDispenser
+210422-20:38:56 [AppMain.ATM_SS] -- Receive poll ack from advicePrinter
+210422-20:38:56 [AppMain.ATM_SS] -- Receive poll ack from BAMS
+210422-20:38:56 [AppMain.ATM_SS] -- Receive poll ack from TouchScreen
+210422-20:38:56 [AppMain.ATM_SS] -- Receive poll ack from alarm
+210422-20:38:57 [AppStarter.common.Timer] -- set up message: [662089] [CashDepositCollector] :1619095138832
+210422-20:38:58 [AppStarter.common.Timer] -- set up message: [969701] [CashDepositCollector] :1619095139834
+210422-20:38:59 [AppStarter.common.Timer] -- set up message: [998222] [CashDepositCollector] :1619095140836
+210422-20:39:00 [AppStarter.common.Timer] -- set up message: [781054] [CashDepositCollector] :1619095141838
+210422-20:39:01 [AppStarter.common.Timer] -- set up message: [876092] [CashDepositCollector] :1619095142839
+210422-20:39:02 [AppStarter.common.Timer] -- set up message: [469577] [CashDepositCollector] :1619095143841
+210422-20:39:03 [AppStarter.common.Timer] -- set up message: [949066] [CashDepositCollector] :1619095144843
+210422-20:39:04 [AppStarter.common.Timer] -- set up message: [785116] [CashDepositCollector] :1619095145845
+210422-20:39:05 [AppStarter.common.Timer] -- set up message: [824470] [CashDepositCollector] :1619095146847
+210422-20:39:06 [AppStarter.common.Timer] -- set up message: [443448] [CashDepositCollector] :1619095147848
+210422-20:39:06 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [Keypad]
+210422-20:39:06 [AppStarter.common.Timer] -- set up message: [733796] [ATM_SS] :1619095156970
+210422-20:39:06 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [CashDepositCollector]
+210422-20:39:06 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [advicePrinter]
+210422-20:39:06 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [BAMS]
+210422-20:39:06 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [alarm]
+210422-20:39:06 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [Card_reader]
+210422-20:39:06 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [cashDispenser]
+210422-20:39:06 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [TouchScreen]
+210422-20:39:06 [AppMain.ATM_SS] -- Receive poll ack from Keypad
+210422-20:39:06 [AppMain.ATM_SS] -- Receive poll ack from CashDepositCollector
+210422-20:39:06 [AppMain.ATM_SS] -- Receive poll ack from advicePrinter
+210422-20:39:06 [AppMain.ATM_SS] -- Receive poll ack from BAMS
+210422-20:39:06 [AppMain.ATM_SS] -- Receive poll ack from alarm
+210422-20:39:06 [AppMain.ATM_SS] -- Receive poll ack from Card_reader
+210422-20:39:06 [AppMain.ATM_SS] -- Receive poll ack from cashDispenser
+210422-20:39:06 [AppMain.ATM_SS] -- Receive poll ack from TouchScreen
+210422-20:39:07 [AppStarter.common.Timer] -- set up message: [952119] [CashDepositCollector] :1619095148850
+210422-20:39:08 [AppStarter.common.Timer] -- set up message: [500816] [CashDepositCollector] :1619095149851
+210422-20:39:09 [AppStarter.common.Timer] -- set up message: [384963] [CashDepositCollector] :1619095150852
+210422-20:39:10 [AppStarter.common.Timer] -- set up message: [298459] [CashDepositCollector] :1619095151853
+210422-20:39:11 [AppStarter.common.Timer] -- set up message: [455033] [CashDepositCollector] :1619095152855
+210422-20:39:12 [AppStarter.common.Timer] -- set up message: [924086] [CashDepositCollector] :1619095153856
+210422-20:39:13 [AppStarter.common.Timer] -- set up message: [938644] [CashDepositCollector] :1619095154857
+210422-20:39:14 [AppStarter.common.Timer] -- set up message: [432272] [CashDepositCollector] :1619095155858
+210422-20:39:15 [AppStarter.common.Timer] -- set up message: [912071] [CashDepositCollector] :1619095156859
+210422-20:39:16 [AppStarter.common.Timer] -- set up message: [511484] [CashDepositCollector] :1619095157860
+210422-20:39:16 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [BAMS]
+210422-20:39:16 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [TouchScreen]
+210422-20:39:16 [AppStarter.common.Timer] -- set up message: [565866] [ATM_SS] :1619095166972
+210422-20:39:16 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [Keypad]
+210422-20:39:16 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [CashDepositCollector]
+210422-20:39:16 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [advicePrinter]
+210422-20:39:16 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [cashDispenser]
+210422-20:39:16 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [Card_reader]
+210422-20:39:16 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [alarm]
+210422-20:39:16 [AppMain.ATM_SS] -- Receive poll ack from BAMS
+210422-20:39:16 [AppMain.ATM_SS] -- Receive poll ack from TouchScreen
+210422-20:39:16 [AppMain.ATM_SS] -- Receive poll ack from Keypad
+210422-20:39:16 [AppMain.ATM_SS] -- Receive poll ack from CashDepositCollector
+210422-20:39:16 [AppMain.ATM_SS] -- Receive poll ack from advicePrinter
+210422-20:39:16 [AppMain.ATM_SS] -- Receive poll ack from cashDispenser
+210422-20:39:16 [AppMain.ATM_SS] -- Receive poll ack from Card_reader
+210422-20:39:16 [AppMain.ATM_SS] -- Receive poll ack from alarm
+210422-20:39:17 [AppStarter.common.Timer] -- set up message: [227484] [CashDepositCollector] :1619095158861
+210422-20:39:18 [AppStarter.common.Timer] -- set up message: [756407] [CashDepositCollector] :1619095159862
+210422-20:39:19 [AppStarter.Hardware.TouchScreenDisplay.TouchScreenDisplay_Emulator] -- change scene into: Error.fxml
+210422-20:39:19 [AppStarter.common.Timer] -- set up message: [672086] [TouchScreen] :1619095160863
+210422-20:39:20 [AppStarter.common.Timer] -- set up message: [607368] [TouchScreen] :1619095161864
+210422-20:39:21 [AppStarter.common.Timer] -- set up message: [399643] [TouchScreen] :1619095162865
+210422-20:39:22 [AppStarter.common.Timer] -- set up message: [805852] [TouchScreen] :1619095163867
+210422-20:39:23 [AppStarter.common.Timer] -- set up message: [531643] [TouchScreen] :1619095164868
+210422-20:39:27 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [alarm]
+210422-20:39:27 [AppStarter.Hardware.TouchScreenDisplay.TouchScreenDisplay_Emulator] -- change scene into: WelcomePage.fxml
+210422-20:39:27 [AppStarter.common.Timer] -- set up message: [397031] [ATM_SS] :1619095177869
+210422-20:39:27 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [Card_reader]
+210422-20:39:27 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [CashDepositCollector]
+210422-20:39:27 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [BAMS]
+210422-20:39:27 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [cashDispenser]
+210422-20:39:27 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [TouchScreen]
+210422-20:39:27 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [Keypad]
+210422-20:39:27 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [advicePrinter]
+210422-20:39:27 [AppMain.ATM_SS] -- Receive poll ack from alarm
+210422-20:39:27 [AppMain.ATM_SS] -- Receive poll ack from Card_reader
+210422-20:39:27 [AppMain.ATM_SS] -- Receive poll ack from CashDepositCollector
+210422-20:39:27 [AppMain.ATM_SS] -- Receive poll ack from BAMS
+210422-20:39:27 [AppMain.ATM_SS] -- Receive poll ack from cashDispenser
+210422-20:39:27 [AppMain.ATM_SS] -- Receive poll ack from TouchScreen
+210422-20:39:27 [AppMain.ATM_SS] -- Receive poll ack from Keypad
+210422-20:39:27 [AppMain.ATM_SS] -- Receive poll ack from advicePrinter
+210422-20:39:33 [AppStarter.Hardware.CardReader.CardController] -- card insert button pressed
+210422-20:39:33 [AppMain.ATM_SS] -- Receive check card message from Card_reader card Number: [201773805]
+210422-20:39:33 [AppStarter.BAMS.BAMS] -- Receive cardMessage: [201773805]
+210422-20:39:33 [AppStarter.Hardware.TouchScreenDisplay.TouchScreenDisplay_Emulator] -- change scene into: EnterPassword.fxml
+210422-20:39:36 [AppStarter.Hardware.KeyPad.KeypadController] -- Button pressed: 1
+210422-20:39:36 [AppStarter.Hardware.KeyPad.Keypad] -- send keyPressed to ATM-SS
+210422-20:39:36 [AppMain.ATM_SS] -- Receive key Pressed: 1
+210422-20:39:36 [AppStarter.Hardware.KeyPad.KeypadController] -- Button pressed: 1
+210422-20:39:36 [AppStarter.Hardware.KeyPad.Keypad] -- send keyPressed to ATM-SS
+210422-20:39:36 [AppMain.ATM_SS] -- Receive key Pressed: 1
+210422-20:39:37 [AppStarter.Hardware.KeyPad.KeypadController] -- Button pressed: 2
+210422-20:39:37 [AppStarter.Hardware.KeyPad.Keypad] -- send keyPressed to ATM-SS
+210422-20:39:37 [AppMain.ATM_SS] -- Receive key Pressed: 2
+210422-20:39:37 [AppStarter.Hardware.KeyPad.KeypadController] -- Button pressed: 2
+210422-20:39:37 [AppStarter.Hardware.KeyPad.Keypad] -- send keyPressed to ATM-SS
+210422-20:39:37 [AppMain.ATM_SS] -- Receive key Pressed: 2
+210422-20:39:37 [AppStarter.Hardware.KeyPad.KeypadController] -- Button pressed: 3
+210422-20:39:37 [AppStarter.Hardware.KeyPad.Keypad] -- send keyPressed to ATM-SS
+210422-20:39:37 [AppMain.ATM_SS] -- Receive key Pressed: 3
+210422-20:39:37 [AppStarter.Hardware.KeyPad.KeypadController] -- Button pressed: 3
+210422-20:39:37 [AppMain.ATM_SS] -- Receive key Pressed: 3
+210422-20:39:37 [AppStarter.Hardware.KeyPad.Keypad] -- send keyPressed to ATM-SS
+210422-20:39:37 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [cashDispenser]
+210422-20:39:37 [AppStarter.common.Timer] -- set up message: [867602] [ATM_SS] :1619095187871
+210422-20:39:37 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [BAMS]
+210422-20:39:37 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [CashDepositCollector]
+210422-20:39:37 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [TouchScreen]
+210422-20:39:37 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [advicePrinter]
+210422-20:39:37 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [Card_reader]
+210422-20:39:37 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [Keypad]
+210422-20:39:37 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [alarm]
+210422-20:39:37 [AppMain.ATM_SS] -- Receive poll ack from cashDispenser
+210422-20:39:37 [AppMain.ATM_SS] -- Receive poll ack from BAMS
+210422-20:39:37 [AppMain.ATM_SS] -- Receive poll ack from CashDepositCollector
+210422-20:39:37 [AppMain.ATM_SS] -- Receive poll ack from TouchScreen
+210422-20:39:37 [AppMain.ATM_SS] -- Receive poll ack from advicePrinter
+210422-20:39:37 [AppMain.ATM_SS] -- Receive poll ack from Card_reader
+210422-20:39:37 [AppMain.ATM_SS] -- Receive poll ack from Keypad
+210422-20:39:37 [AppMain.ATM_SS] -- Receive poll ack from alarm
+210422-20:39:38 [AppStarter.Hardware.KeyPad.KeypadController] -- Button pressed: 4
+210422-20:39:38 [AppStarter.Hardware.KeyPad.Keypad] -- send keyPressed to ATM-SS
+210422-20:39:38 [AppMain.ATM_SS] -- Receive key Pressed: 4
+210422-20:39:38 [AppStarter.Hardware.KeyPad.KeypadController] -- Button pressed: 4
+210422-20:39:38 [AppStarter.Hardware.KeyPad.Keypad] -- send keyPressed to ATM-SS
+210422-20:39:38 [AppMain.ATM_SS] -- Receive key Pressed: 4
+210422-20:39:39 [AppStarter.Hardware.KeyPad.KeypadController] -- Button pressed: Enter
+210422-20:39:39 [AppMain.ATM_SS] -- 11223344
+210422-20:39:39 [AppStarter.BAMS.BAMS] -- Receive pin: [ 11223344]
+210422-20:39:39 [AppMain.ATM_SS] -- Receive Login success
+210422-20:39:39 [AppStarter.Hardware.TouchScreenDisplay.TouchScreenDisplay_Emulator] -- change scene into: TouchScreenDisplayMainPage.fxml
+210422-20:39:42 [AppMain.ATM_SS] -- Get Account message received
+210422-20:39:42 [AppStarter.Hardware.TouchScreenDisplay.TouchScreenDisplay_Emulator] -- change scene into: GetAccount.fxml
+210422-20:39:46 [AppStarter.common.Timer] -- set up message: [785734] [CashDepositCollector] :1619095186295
+210422-20:39:46 [AppStarter.Hardware.TouchScreenDisplay.TouchScreenDisplay_Emulator] -- change scene into: waitForDeposit.fxml
+210422-20:39:46 [AppStarter.common.Timer] -- set up message: [547920] [CashDepositCollector] :1619095187296
+210422-20:39:47 [AppStarter.common.Timer] -- set up message: [276366] [CashDepositCollector] :1619095188297
+210422-20:39:47 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [Keypad]
+210422-20:39:47 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [Card_reader]
+210422-20:39:47 [AppStarter.common.Timer] -- set up message: [743272] [ATM_SS] :1619095197872
+210422-20:39:47 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [cashDispenser]
+210422-20:39:47 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [CashDepositCollector]
+210422-20:39:47 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [advicePrinter]
+210422-20:39:47 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [alarm]
+210422-20:39:47 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [TouchScreen]
+210422-20:39:47 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [BAMS]
+210422-20:39:47 [AppMain.ATM_SS] -- Receive poll ack from Keypad
+210422-20:39:47 [AppMain.ATM_SS] -- Receive poll ack from Card_reader
+210422-20:39:47 [AppMain.ATM_SS] -- Receive poll ack from cashDispenser
+210422-20:39:47 [AppMain.ATM_SS] -- Receive poll ack from CashDepositCollector
+210422-20:39:47 [AppMain.ATM_SS] -- Receive poll ack from advicePrinter
+210422-20:39:47 [AppMain.ATM_SS] -- Receive poll ack from alarm
+210422-20:39:47 [AppMain.ATM_SS] -- Receive poll ack from TouchScreen
+210422-20:39:47 [AppMain.ATM_SS] -- Receive poll ack from BAMS
+210422-20:39:48 [AppStarter.common.Timer] -- set up message: [736913] [CashDepositCollector] :1619095189299
+210422-20:39:49 [AppStarter.common.Timer] -- set up message: [851036] [CashDepositCollector] :1619095190301
+210422-20:39:50 [AppStarter.common.Timer] -- set up message: [832543] [CashDepositCollector] :1619095191303
+210422-20:39:51 [AppStarter.common.Timer] -- set up message: [166688] [CashDepositCollector] :1619095192304
+210422-20:39:52 [AppStarter.common.Timer] -- set up message: [806894] [CashDepositCollector] :1619095193305
+210422-20:39:53 [AppStarter.common.Timer] -- set up message: [643870] [CashDepositCollector] :1619095194306
+210422-20:39:54 [AppStarter.common.Timer] -- set up message: [919322] [CashDepositCollector] :1619095195307
+210422-20:39:55 [AppStarter.common.Timer] -- set up message: [400337] [CashDepositCollector] :1619095196308
+210422-20:39:56 [AppStarter.common.Timer] -- set up message: [667659] [CashDepositCollector] :1619095197310
+210422-20:39:57 [AppStarter.common.Timer] -- set up message: [481426] [CashDepositCollector] :1619095198311
+210422-20:39:57 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [BAMS]
+210422-20:39:57 [AppMain.ATM_SS] -- Receive poll ack from BAMS
+210422-20:39:57 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [advicePrinter]
+210422-20:39:57 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [TouchScreen]
+210422-20:39:57 [AppStarter.common.Timer] -- set up message: [742825] [ATM_SS] :1619095207874
+210422-20:39:57 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [Card_reader]
+210422-20:39:57 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [cashDispenser]
+210422-20:39:57 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [Keypad]
+210422-20:39:57 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [CashDepositCollector]
+210422-20:39:57 [AppMain.ATM_SS] -- Receive poll ack from advicePrinter
+210422-20:39:57 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [alarm]
+210422-20:39:57 [AppMain.ATM_SS] -- Receive poll ack from TouchScreen
+210422-20:39:57 [AppMain.ATM_SS] -- Receive poll ack from Card_reader
+210422-20:39:57 [AppMain.ATM_SS] -- Receive poll ack from cashDispenser
+210422-20:39:57 [AppMain.ATM_SS] -- Receive poll ack from Keypad
+210422-20:39:57 [AppMain.ATM_SS] -- Receive poll ack from CashDepositCollector
+210422-20:39:57 [AppMain.ATM_SS] -- Receive poll ack from alarm
+210422-20:39:58 [AppStarter.Hardware.TouchScreenDisplay.TouchScreenDisplay_Emulator] -- change scene into: Account_status_for_transfer.fxml
+210422-20:40:03 [AppStarter.Hardware.TouchScreenDisplay.TouchScreenDisplay_Emulator] -- change scene into: WelcomePage.fxml
+210422-20:40:03 [AppStarter.common.Timer] -- set up message: [248410] [alarm] :1619095204983
+210422-20:40:04 [AppStarter.Hardware.alarm.alarm] -- Times up for alarm
+210422-20:40:05 [AppStarter.common.Timer] -- set up message: [872847] [alarm] :1619095206722
+210422-20:40:06 [AppStarter.Hardware.alarm.alarm] -- Times up for alarm
+210422-20:40:07 [AppStarter.common.Timer] -- set up message: [904386] [alarm] :1619095208382
+210422-20:40:07 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [BAMS]
+210422-20:40:07 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [alarm]
+210422-20:40:07 [AppMain.ATM_SS] -- Receive poll ack from BAMS
+210422-20:40:07 [AppStarter.common.Timer] -- set up message: [222437] [ATM_SS] :1619095217875
+210422-20:40:07 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [advicePrinter]
+210422-20:40:07 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [CashDepositCollector]
+210422-20:40:07 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [TouchScreen]
+210422-20:40:07 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [cashDispenser]
+210422-20:40:07 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [Card_reader]
+210422-20:40:07 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [Keypad]
+210422-20:40:07 [AppMain.ATM_SS] -- Receive poll ack from alarm
+210422-20:40:07 [AppMain.ATM_SS] -- Receive poll ack from advicePrinter
+210422-20:40:07 [AppMain.ATM_SS] -- Receive poll ack from CashDepositCollector
+210422-20:40:07 [AppMain.ATM_SS] -- Receive poll ack from TouchScreen
+210422-20:40:07 [AppMain.ATM_SS] -- Receive poll ack from cashDispenser
+210422-20:40:07 [AppMain.ATM_SS] -- Receive poll ack from Card_reader
+210422-20:40:07 [AppMain.ATM_SS] -- Receive poll ack from Keypad
+210422-20:40:08 [AppStarter.Hardware.alarm.alarm] -- Times up for alarm
+210422-20:40:09 [AppStarter.common.Timer] -- set up message: [592461] [alarm] :1619095210042
+210422-20:40:10 [AppStarter.Hardware.alarm.alarm] -- Times up for alarm
+210422-20:40:10 [AppStarter.common.Timer] -- set up message: [747156] [alarm] :1619095211703
+210422-20:40:11 [AppStarter.Hardware.alarm.alarm] -- Times up for alarm
+210422-20:40:12 [AppStarter.common.Timer] -- set up message: [609785] [alarm] :1619095213366
+210422-20:40:13 [AppStarter.Hardware.alarm.alarm] -- Times up for alarm
+210422-20:40:14 [AppStarter.common.Timer] -- set up message: [547364] [alarm] :1619095215013
+210422-20:40:15 [AppStarter.Hardware.alarm.alarm] -- Times up for alarm
+210422-20:40:17 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [Keypad]
+210422-20:40:17 [AppMain.ATM_SS] -- Receive poll ack from Keypad
+210422-20:40:17 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [Card_reader]
+210422-20:40:17 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [cashDispenser]
+210422-20:40:17 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [CashDepositCollector]
+210422-20:40:17 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [advicePrinter]
+210422-20:40:17 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [alarm]
+210422-20:40:17 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [BAMS]
+210422-20:40:17 [AppStarter.Hardware.HardwareHandler] -- Receive poll message from ATM_SS [TouchScreen]
+210422-20:40:17 [AppMain.ATM_SS] -- Receive poll ack from Card_reader
+210422-20:40:17 [AppStarter.common.Timer] -- set up message: [332132] [ATM_SS] :1619095227876
+210422-20:40:17 [AppMain.ATM_SS] -- Receive poll ack from cashDispenser
+210422-20:40:17 [AppMain.ATM_SS] -- Receive poll ack from CashDepositCollector
+210422-20:40:17 [AppMain.ATM_SS] -- Receive poll ack from advicePrinter
+210422-20:40:17 [AppMain.ATM_SS] -- Receive poll ack from alarm
+210422-20:40:17 [AppMain.ATM_SS] -- Receive poll ack from BAMS
+210422-20:40:17 [AppMain.ATM_SS] -- Receive poll ack from TouchScreen
+210422-20:40:22 [AppStarter.Hardware.HardwareHandler] -- Receive Terminate message from TouchScreen
+210422-20:40:22 [AppStarter.Hardware.HardwareHandler] -- Receive Terminate message from alarm
+210422-20:40:22 [AppStarter.Hardware.HardwareHandler] -- Receive Terminate message from CashDepositCollector
+210422-20:40:22 [AppStarter.common.AppStarter] --  remove thread: CashDepositCollector
+210422-20:40:22 [AppStarter.Hardware.HardwareHandler] -- Receive Terminate message from advicePrinter
+210422-20:40:22 [AppStarter.Hardware.HardwareHandler] -- Receive Terminate message from BAMS
+210422-20:40:22 [AppStarter.Hardware.HardwareHandler] -- Receive Terminate message from Card_reader
+210422-20:40:22 [AppStarter.Hardware.HardwareHandler] -- Receive Terminate message from Keypad
+210422-20:40:22 [AppStarter.common.AppStarter] --  remove thread: Timer
+210422-20:40:22 [AppStarter.common.AppStarter] --  remove thread: ATM_SS
+210422-20:40:22 [AppStarter.common.AppStarter] --  remove thread: Keypad
+210422-20:40:22 [AppStarter.common.AppStarter] --  remove thread: Card_reader
+210422-20:40:22 [AppStarter.common.AppStarter] --  remove thread: BAMS
+210422-20:40:22 [AppStarter.common.AppStarter] --  remove thread: advicePrinter
+210422-20:40:22 [AppStarter.Hardware.HardwareHandler] -- UnRegister thread: advicePrinter
+210422-20:40:22 [AppStarter.Hardware.HardwareHandler] -- Receive Terminate message from cashDispenser
+210422-20:40:22 [AppStarter.common.AppStarter] --  remove thread: alarm
+210422-20:40:22 [AppStarter.common.AppStarter] --  remove thread: TouchScreen
+210422-20:40:22 [AppStarter.Hardware.HardwareHandler] -- UnRegister thread: TouchScreen
+210422-20:40:22 [AppStarter.common.AppStarter] --  remove thread: cashDispenser
+210422-20:40:22 [AppStarter.Hardware.HardwareHandler] -- UnRegister thread: CashDepositCollector
+210422-20:40:22 [AppStarter.Hardware.HardwareHandler] -- UnRegister thread: BAMS
+210422-20:40:22 [AppStarter.Hardware.HardwareHandler] -- UnRegister thread: Card_reader
+210422-20:40:22 [AppStarter.Hardware.HardwareHandler] -- UnRegister thread: Keypad
+210422-20:40:22 [AppMain.ATM_SS] -- UnRegister Thread : ATM_SS
+210422-20:40:22 [AppStarter.common.Timer] -- UnRegister thread: Timer
+210422-20:40:22 [AppStarter.Hardware.HardwareHandler] -- UnRegister thread: alarm
+210422-20:40:22 [AppStarter.Hardware.HardwareHandler] -- UnRegister thread: cashDispenser

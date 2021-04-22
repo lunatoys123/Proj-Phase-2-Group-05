@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="437.0" prefWidth="580.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppStarter.Hardware.TouchScreenDisplay.TouchScreenDisplayController">
+   <children>
+      <AnchorPane layoutX="3.0" layoutY="6.0" prefHeight="431.0" prefWidth="571.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b4b3bd" height="441.0" layoutX="-6.0" layoutY="-7.0" stroke="BLACK" strokeType="INSIDE" width="583.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="61.0" layoutX="-6.0" layoutY="249.0" stroke="BLACK" strokeType="INSIDE" width="292.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="61.0" layoutX="284.0" layoutY="249.0" stroke="BLACK" strokeType="INSIDE" width="292.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="61.0" layoutX="-6.0" layoutY="310.0" stroke="BLACK" strokeType="INSIDE" width="292.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="61.0" layoutX="284.0" layoutY="310.0" stroke="BLACK" strokeType="INSIDE" width="292.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="61.0" layoutX="-7.0" layoutY="371.0" stroke="BLACK" strokeType="INSIDE" width="292.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="61.0" layoutX="283.0" layoutY="371.0" stroke="BLACK" strokeType="INSIDE" width="292.0" />
+            <Label layoutX="38.0" layoutY="63.0" prefHeight="116.0" prefWidth="506.0" text="Welcome to The Bank that not handle your money well" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutY="249.0" onMouseClicked="#AccountInquiry" prefHeight="62.0" prefWidth="283.0" text="Account Inquiry" textAlignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutX="287.0" layoutY="249.0" onMouseClicked="#withdrawal" prefHeight="62.0" prefWidth="283.0" text="withdrawal" textAlignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutX="-2.0" layoutY="309.0" onMouseClicked="#Transfer" prefHeight="62.0" prefWidth="283.0" text="Transfer">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label fx:id="DepositText" layoutX="287.0" layoutY="309.0" onMouseClicked="#Deposit" prefHeight="62.0" prefWidth="283.0" text="Deposit">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutY="370.0" onMouseClicked="#EndService" prefHeight="62.0" prefWidth="283.0" text="Exit">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutX="287.0" layoutY="370.0" prefHeight="62.0" prefWidth="283.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

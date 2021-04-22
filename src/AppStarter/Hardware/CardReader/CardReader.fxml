@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="246.0" xmlns="http://javafx.com/javafx/8.0.202-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppStarter.Hardware.CardReader.CardController">
+   <children>
+      <Button fx:id="btnCardInsert" layoutX="14.0" layoutY="308.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="23.0" prefWidth="290.0" text="Card Insert" />
+      <TextArea fx:id="Card_MessagePane" editable="false" layoutX="14.0" layoutY="90.0" prefHeight="167.0" prefWidth="290.0" />
+      <AnchorPane layoutX="7.0" layoutY="32.0" prefHeight="36.0" prefWidth="310.0">
+         <children>
+            <Label layoutY="7.0" prefHeight="15.0" prefWidth="95.0" text="card_num:" />
+            <TextField fx:id="card_number_TextField" layoutX="104.0" layoutY="3.0" prefHeight="23.0" prefWidth="194.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,11 @@
+AppMain
+AppStarter.BAMS
+AppStarter.Hardware
+AppStarter.Hardware.CardReader
+AppStarter.Hardware.CashDeposit
+AppStarter.Hardware.CashWithdraw
+AppStarter.Hardware.KeyPad
+AppStarter.Hardware.TouchScreenDisplay
+AppStarter.Hardware.advice
+AppStarter.Hardware.alarm
+AppStarter.common

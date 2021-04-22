@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.202-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppStarter.Hardware.TouchScreenDisplay.TouchScreenDisplayController">
+   <children>
+      <Label alignment="CENTER" layoutX="63.0" layoutY="96.0" prefHeight="111.0" prefWidth="448.0" text="Wait For Deposit">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="TimerText" alignment="CENTER" layoutX="63.0" layoutY="234.0" prefHeight="77.0" prefWidth="448.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

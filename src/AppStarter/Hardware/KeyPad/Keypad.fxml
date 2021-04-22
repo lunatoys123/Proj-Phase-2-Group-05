@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="126.0" prefWidth="285.0" xmlns="http://javafx.com/javafx/8.0.202-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppStarter.Hardware.KeyPad.KeypadController">
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#ButtonPressed" prefHeight="46.0" prefWidth="54.0" text="1" />
+      <Button layoutX="68.0" layoutY="14.0" mnemonicParsing="false" onAction="#ButtonPressed" prefHeight="46.0" prefWidth="54.0" text="2" />
+      <Button layoutX="122.0" layoutY="14.0" mnemonicParsing="false" onAction="#ButtonPressed" prefHeight="46.0" prefWidth="54.0" text="3" />
+      <Button layoutX="177.0" layoutY="14.0" mnemonicParsing="false" onAction="#ButtonPressed" prefHeight="46.0" prefWidth="87.0" text="Cancel" wrapText="true" />
+      <Button layoutX="14.0" layoutY="60.0" mnemonicParsing="false" onAction="#ButtonPressed" prefHeight="46.0" prefWidth="54.0" text="4" />
+      <Button layoutX="68.0" layoutY="60.0" mnemonicParsing="false" onAction="#ButtonPressed" prefHeight="46.0" prefWidth="54.0" text="5" />
+      <Button layoutX="122.0" layoutY="60.0" mnemonicParsing="false" onAction="#ButtonPressed" prefHeight="46.0" prefWidth="54.0" text="6" />
+      <Button layoutX="177.0" layoutY="60.0" mnemonicParsing="false" onAction="#ButtonPressed" prefHeight="46.0" prefWidth="87.0" text="Delete" wrapText="true" />
+      <Button layoutX="14.0" layoutY="110.0" mnemonicParsing="false" onAction="#ButtonPressed" prefHeight="46.0" prefWidth="54.0" text="7" />
+      <Button layoutX="68.0" layoutY="110.0" mnemonicParsing="false" onAction="#ButtonPressed" prefHeight="46.0" prefWidth="54.0" text="8" />
+      <Button layoutX="122.0" layoutY="110.0" mnemonicParsing="false" onAction="#ButtonPressed" prefHeight="46.0" prefWidth="54.0" text="9" />
+      <Button layoutX="177.0" layoutY="110.0" mnemonicParsing="false" onAction="#ButtonPressed" prefHeight="46.0" prefWidth="87.0" text="Reset" wrapText="true" />
+      <Button layoutX="14.0" layoutY="160.0" mnemonicParsing="false" onAction="#ButtonPressed" prefHeight="46.0" prefWidth="54.0" text="." />
+      <Button layoutX="68.0" layoutY="160.0" mnemonicParsing="false" onAction="#ButtonPressed" prefHeight="46.0" prefWidth="54.0" text="0" />
+      <Button layoutX="122.0" layoutY="160.0" mnemonicParsing="false" onAction="#ButtonPressed" prefHeight="46.0" prefWidth="54.0" text="00" />
+      <Button layoutX="177.0" layoutY="160.0" mnemonicParsing="false" onAction="#ButtonPressed" prefHeight="46.0" prefWidth="87.0" text="Enter" wrapText="true" />
+   </children>
+</AnchorPane>

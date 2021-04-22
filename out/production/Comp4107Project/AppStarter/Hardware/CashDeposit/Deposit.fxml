@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="321.0" prefWidth="471.0" xmlns="http://javafx.com/javafx/8.0.202-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppStarter.Hardware.CashDeposit.CashDepositController">
+   <children>
+      <AnchorPane layoutX="6.0" layoutY="217.0" prefHeight="46.0" prefWidth="445.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="45.0" stroke="BLACK" strokeType="INSIDE" width="446.0" />
+            <TextField fx:id="Total" editable="false" layoutX="209.0" layoutY="11.0" prefHeight="23.0" prefWidth="222.0" text="0" />
+            <Label alignment="CENTER" prefHeight="38.0" prefWidth="191.0" text="Total:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="6.0" layoutY="171.0" prefHeight="38.0" prefWidth="446.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5f5f5" height="45.0" stroke="BLACK" strokeType="INSIDE" width="445.0" />
+            <TextField fx:id="NumberOfOneThousand" editable="false" layoutX="209.0" layoutY="7.0" prefHeight="23.0" prefWidth="222.0" text="0" />
+            <Label alignment="CENTER" prefHeight="38.0" prefWidth="191.0" text="no. of $1000">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="6.0" layoutY="125.0" prefHeight="46.0" prefWidth="446.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="46.0" stroke="BLACK" strokeType="INSIDE" width="445.0" />
+            <Label alignment="CENTER" layoutX="3.0" prefHeight="38.0" prefWidth="191.0" text="no. of $500:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="numberOfFiveHundred" editable="false" layoutX="209.0" layoutY="11.0" prefHeight="23.0" prefWidth="222.0" text="0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="6.0" layoutY="82.0" prefHeight="45.0" prefWidth="446.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fdfdfd" height="45.0" stroke="BLACK" strokeType="INSIDE" width="445.0" />
+            <Label alignment="CENTER" prefHeight="46.0" prefWidth="200.0" text="no. of $100:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="NumberOfOneHundred" editable="false" layoutX="209.0" layoutY="11.0" onKeyTyped="#changeTotal" prefHeight="23.0" prefWidth="222.0" text="0" />
+         </children></AnchorPane>
+      <Button fx:id="btnConfirmAmount" disable="true" layoutX="6.0" layoutY="269.0" mnemonicParsing="false" onAction="#ConfirmAmount" prefHeight="23.0" prefWidth="230.0" text="Confirm Amount" />
+      <Button fx:id="btnReset" disable="true" layoutX="242.0" layoutY="269.0" mnemonicParsing="false" onMouseClicked="#Reset" prefHeight="23.0" prefWidth="214.0" text="Reset" />
+      <Label alignment="CENTER" layoutX="100.0" layoutY="14.0" prefHeight="51.0" prefWidth="230.0" text="Deposit">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

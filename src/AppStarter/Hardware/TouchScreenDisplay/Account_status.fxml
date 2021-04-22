@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.202-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppStarter.Hardware.TouchScreenDisplay.TouchScreenDisplayController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="55.0" layoutY="237.0" stroke="BLACK" strokeType="INSIDE" width="300.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="55.0" layoutX="300.0" layoutY="237.0" stroke="BLACK" strokeType="INSIDE" width="300.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="55.0" layoutY="292.0" stroke="BLACK" strokeType="INSIDE" width="300.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="55.0" layoutX="300.0" layoutY="292.0" stroke="BLACK" strokeType="INSIDE" width="300.0" />
+      <Label fx:id="statusText" alignment="CENTER" layoutX="135.0" layoutY="71.0" prefHeight="111.0" prefWidth="338.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutY="237.0" onMouseClicked="#ContinueOperation" prefHeight="55.0" prefWidth="300.0" text="Continue Operation">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="printAdviceText" alignment="CENTER" layoutX="300.0" layoutY="237.0" onMouseClicked="#PrintAdvice" prefHeight="55.0" prefWidth="300.0" text="Print advice">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutY="292.0" onMouseClicked="#EndService" prefHeight="55.0" prefWidth="300.0" text="Exit">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="300.0" layoutY="292.0" prefHeight="55.0" prefWidth="300.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.202-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppStarter.Hardware.CashWithdraw.CashDispenserController">
+   <children>
+      <AnchorPane layoutX="1.0" layoutY="111.0" prefHeight="59.0" prefWidth="611.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8f8f8" height="59.0" stroke="BLACK" strokeType="INSIDE" width="611.0" />
+            <Label alignment="CENTER" prefHeight="59.0" prefWidth="194.0" text="no. of $100">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Domain100" editable="false" layoutX="226.0" layoutY="18.0" prefHeight="23.0" prefWidth="252.0" />
+            <Button fx:id="TakeOneHundred" disable="true" layoutX="507.0" layoutY="18.0" mnemonicParsing="false" onAction="#ButtonPressed" text="Take" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="1.0" layoutY="170.0" prefHeight="59.0" prefWidth="611.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8f8f8" height="59.0" stroke="BLACK" strokeType="INSIDE" width="611.0" />
+            <Label alignment="CENTER" prefHeight="59.0" prefWidth="194.0" text="no. of $500">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Domain500" editable="false" layoutX="226.0" layoutY="18.0" prefHeight="23.0" prefWidth="252.0" />
+            <Button fx:id="TakeFiveHundred" disable="true" layoutX="507.0" layoutY="18.0" mnemonicParsing="false" onAction="#ButtonPressed" text="Take" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="1.0" layoutY="229.0" prefHeight="59.0" prefWidth="611.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8f8f8" height="59.0" stroke="BLACK" strokeType="INSIDE" width="611.0" />
+            <Label alignment="CENTER" prefHeight="59.0" prefWidth="194.0" text="no. of $1000">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Domain1000" editable="false" layoutX="226.0" layoutY="18.0" prefHeight="23.0" prefWidth="252.0" />
+            <Button fx:id="TakeOneThousand" disable="true" layoutX="508.0" layoutY="18.0" mnemonicParsing="false" onAction="#ButtonPressed" text="Take" />
+         </children>
+      </AnchorPane>
+      <Label alignment="CENTER" layoutX="134.0" layoutY="36.0" prefHeight="42.0" prefWidth="346.0" text="Withdrawal">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="withdrawTime" alignment="CENTER" layoutX="23.0" layoutY="320.0" prefHeight="34.0" prefWidth="541.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
